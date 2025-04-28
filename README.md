@@ -5,9 +5,9 @@ This repository contains MySQL database migration scripts for the **Blogify** pr
 ---
 
 ## 📁 Project Structure
-
+```bash
 sql/ 
-└── migration/ 
+├── migration/ 
 |   ├── 001_users.up.sql 
 |   ├── 001_users.down.sql 
 |   ├── 002_posts.up.sql 
@@ -22,3 +22,4 @@ sql/
 |   └── 006_modify_comment_text_field.down.sql
 ├── 001user.down.sql  
 └── 001user.up.sql
+```
