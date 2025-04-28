@@ -1,0 +1,2 @@
+ALTER TABLE comments
+MODIFY COLUMN comment_text VARCHAR(255) NOT NULL;
